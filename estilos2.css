@@ -1,0 +1,190 @@
+
+/* FUNDO DA PÁGINA */
+
+body {
+    background-color: #100d2b;
+}
+
+
+/* TÍTULO */
+
+.titulo-noticias {
+    background-color: #17104b;
+    color: white;
+    padding: 35px;
+    text-align: center;
+}
+
+.titulo-noticias h1 {
+    font-family: 'Anton', sans-serif;
+    font-size: 48px;
+    letter-spacing: 3px;
+}
+
+.titulo-noticias p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    margin-top: 10px;
+}
+
+
+/* DESTAQUE PRINCIPAL */
+
+.noticia-principal {
+    min-height: 250px;
+
+    background: linear-gradient(
+        90deg,
+        #17104b,
+        #4620a0,
+        #7515ff
+    );
+
+    display: flex;
+    align-items: center;
+
+    padding: 30px;
+    color: white;
+}
+
+.noticia-texto {
+    padding: 20px;
+}
+
+.noticia-texto h2 {
+    font-family: 'Anton', sans-serif;
+    font-size: 38px;
+    margin-bottom: 15px;
+    
+}
+
+.noticia-texto p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+
+/* SUBTÍTULO */
+
+.subtitulo {
+    color: white;
+    font-family: 'Anton', sans-serif;
+    font-size: 30px;
+    letter-spacing: 1px;
+
+    padding: 25px 10px 15px;
+}
+
+
+/* LISTA DE NOTÍCIAS */
+
+.lista-noticias {
+    padding: 10px;
+}
+
+
+/* CARTÕES */
+
+.card-noticia {
+    background-color: #17143b;
+    border-radius: 12px;
+    overflow: hidden;
+
+    margin: 10px;
+    min-height: 380px;
+
+    border: 1px solid #35246d;
+    transition: 0.3s;
+}
+
+.card-noticia:hover {
+    transform: translateY(-6px);
+    border-color: #7515ff;
+}
+
+
+/* IMAGENS */
+
+.card-noticia img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+
+/* TEXTO DOS CARTÕES */
+
+.card-texto {
+    padding: 18px;
+    color: white;
+}
+
+.card-texto span {
+    color: #b78aff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.card-texto h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.card-texto p {
+    font-family: 'Roboto', sans-serif;
+    color: #dddded;
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.card-texto a {
+    color: #ffd500;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.card-texto a:hover {
+    color: white;
+}
+
+
+/* RESPONSIVIDADE */
+
+
+
+
+
+
+.noticia img {
+    width: 100%;
+    height: 400px;
+  
+    display: block;
+}
+.noticia {
+    background-color: #17143b;
+    color: white;
+    padding: 0;
+    text-align: center;
+   
+
+}
+.noticia h2 {
+    font-family: Arial;
+    font-size: 22px;
+    margin: 15px;
+}
+
+.noticia p {
+    font-family: Arial;
+    font-size: 15px;
+    line-height: 1.5;
+    padding: 0 10px 15px;
+}

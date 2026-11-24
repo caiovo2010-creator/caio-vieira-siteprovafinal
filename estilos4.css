@@ -1,0 +1,105 @@
+
+body {
+    background-color: #080620;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    color: white;
+}
+
+/* TOPO */
+.topo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 25px;
+    height: 62px;
+    border-bottom: 3px solid #7515ff;
+}
+
+.topo h1 {
+    font-family: 'Anton', sans-serif;
+    font-size: 30px;
+    letter-spacing: 3px;
+}
+
+/* MENU */
+.menu {
+    display: flex;
+    gap: 18px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.menu i {
+    color: #c5a5ff;
+    margin-right: 5px;
+}
+
+.menu a:hover {
+    color: #a65cff;
+}
+
+/* CONTAINER */
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+/* GUIA */
+.container > h2 {
+    font-size: 32px;
+    margin-top: 30px;
+}
+
+.guia {
+    background-color: #17113b;
+    border: 2px solid #7515ff;
+    border-radius: 10px;
+    padding: 15px;
+    margin-top: 15px;
+}
+
+.guia img {
+    width: 100%;
+    height: 330px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.guia h3 {
+    color: #a65cff;
+    font-size: 25px;
+}
+
+.guia p {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+/* DICAS */
+.dicas {
+    background-color: #17113b;
+    border: 2px solid #7515ff;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 25px;
+}
+
+.dicas h2 {
+    color: #a65cff;
+    font-size: 25px;
+}
+
+.dicas p {
+    font-size: 17px;
+}
+
+/* RODAPE */
+.rodape {
+    margin-top: 25px;
+    padding-bottom: 20px;
+}
