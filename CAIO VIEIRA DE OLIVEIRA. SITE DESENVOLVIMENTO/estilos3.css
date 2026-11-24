@@ -1,0 +1,130 @@
+
+body {
+    background-color: #080620;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    color: white;
+}
+
+/* TOPO */
+.topo {
+    width: 100%;
+    height: 62px;
+    background-color: #080620;
+    border-bottom: 3px solid #7515ff;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    box-sizing: border-box;
+    padding: 0 12px;
+}
+
+/* LOGO */
+.logo h1 {
+    font-family: 'Anton', sans-serif;
+    font-size: 30px;
+    letter-spacing: 3px;
+    margin: 0;
+    color: white;
+}
+
+/* MENU */
+.menu {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.menu i {
+    color: #c5a5ff;
+    margin-right: 5px;
+}
+
+.menu a:hover {
+    color: #a65cff;
+}
+
+/* CONTAINER */
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+/* TITULO */
+.titulo-sobre {
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.titulo-sobre h1 {
+    font-size: 32px;
+    color: white;
+}
+
+/* SOBRE */
+.sobre {
+    background-color: #17113b;
+    border: 2px solid #7515ff;
+    border-radius: 10px;
+    padding: 25px;
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.sobre h2 {
+    color: #a65cff;
+    font-size: 25px;
+}
+
+.sobre p {
+    font-size: 17px;
+    line-height: 1.6;
+}
+
+.sobre img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* MODOS */
+.titulo-modos {
+    margin-top: 20px;
+}
+
+.titulo-modos h2 {
+    font-size: 25px;
+}
+
+.modo {
+    background-color: #17113b;
+    border: 1px solid #7515ff;
+    border-radius: 10px;
+    padding: 15px;
+    margin-top: 15px;
+    box-sizing: border-box;
+}
+
+.modo h3 {
+    color: #a65cff;
+}
+
+/* RODAPE */
+.rodape {
+    margin-top: 20px;
+    padding: 10px 0;
+}
+ 
+.centralizar {
+    display: block;
+    margin: auto;
+}

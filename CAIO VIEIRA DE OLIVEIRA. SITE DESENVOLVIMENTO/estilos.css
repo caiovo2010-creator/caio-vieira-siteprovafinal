@@ -1,0 +1,212 @@
+
+/* CONFIGURAÇÕES GERAIS */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #100d2b;
+    font-family: Arial, sans-serif;
+}
+
+
+/* TOPO */
+
+.topo {
+    background-color: #080620;
+    padding: 15px 25px;
+    border-bottom: 3px solid #7515ff;
+    border-radius: 12px 12px 0 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 40%;
+}
+
+.logo h1 {
+    font-family: 'Anton', sans-serif;
+    font-size: 32px;
+    color: white;
+    letter-spacing: 2px;
+}
+
+/* MENU */
+
+.menu {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 15px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.menu i {
+    margin-right: 5px;
+    color: #c5b5ff;
+}
+
+.menu a:hover {
+    color: #a855f7;
+}
+
+
+/* BANNER PRINCIPAL */
+
+.banner {
+    background-image: url("imagem fortinite 1.png");
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    background-color: #17104b;
+
+    min-height: 640px;
+
+    display: flex;
+    align-items: center;
+}
+
+/* TEXTOS DO BANNER */
+
+.texto {
+    color: white;
+    padding: 25px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.texto h1 {
+    font-family: 'Anton', sans-serif;
+    font-size: 75px;
+    color: white;
+    letter-spacing: 2px;
+    margin-bottom: 5px;
+    text-shadow: 3px 3px 5px black;
+}
+
+.texto h2 {
+    font-family: 'Anton', sans-serif;
+    font-size: 30px;
+    font-weight: normal;
+    color: white;
+    line-height: 1.2;
+    margin-bottom: 15px;
+    text-shadow: 2px 2px 5px black;
+}
+
+.texto p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 19px;
+    font-weight: 500;
+    color: white;
+    line-height: 1.6;
+    margin-bottom: 30px;
+    text-shadow: 2px 2px 5px black;
+}
+
+
+/* BOTÃO SAIBA MAIS */
+
+.botao {
+    display: inline-block;
+
+    background-color: #ffd500;
+    color: #111111;
+
+    padding: 14px 28px;
+    border-radius: 30px;
+
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 900;
+
+    box-shadow: 0px 4px 10px #00000050;
+    transition: 0.3s;
+}
+
+.botao i {
+    margin-right: 8px;
+}
+
+.botao:hover {
+    background-color: white;
+    transform: scale(1.05);
+}
+
+
+/* FAIXA DE DESTAQUES */
+
+.faixa-destaques {
+    background-color: #100d35;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-top: 2px solid #7515ff;
+    border-bottom: 2px solid #7515ff;
+}
+
+.destaque {
+    padding: 22px 10px;
+    text-align: center;
+    color: white;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+
+    border-right: 1px solid #655b91;
+}
+
+.destaque:last-child {
+    border-right: none;
+}
+
+.destaque i {
+    font-size: 23px;
+    color: #c5b5ff;
+}
+
+.destaque h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+
+/* RODAPÉ */
+
+.rodape {
+    background-color: #080620;
+    color: #aaa;
+
+    padding: 25px;
+    text-align: center;
+
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    line-height: 1.8;
+}
+
+
+/* RESPONSIVIDADE */
+
+
